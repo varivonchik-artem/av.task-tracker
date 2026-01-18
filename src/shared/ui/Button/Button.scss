@@ -1,0 +1,22 @@
+.button {
+  @include flex-center;
+
+  height: var(--input-height);
+
+  padding: 12px;
+
+  color: var(--color-white);
+  background-color: var(--color-red-45);
+
+  border: var(--border);
+  border-radius: var(--border-radius-8);
+
+  @include hover {
+    color: var(--color-white);
+    background-color: var(--color-red-60);
+  }
+
+  &:active {
+    scale: 1.05;
+  }
+}
