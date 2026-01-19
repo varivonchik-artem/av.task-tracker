@@ -33,7 +33,12 @@ const MainPage = () => {
           <label className="todo-item__label" htmlFor="task-1">
             Task 1
           </label>
-          <Button className="todo-item__delete-button" label="Delete" aria-label="Delete" title="Delete" />
+          <Button
+            className="todo-item__delete-button"
+            label="Dele1222223asracfsdffdsfdsfdsfdssgs gs fgsDele1222223asracfsdffdsfdsfdsfdssgs gs fgs gsf gasd ad asd asd asd asd asd te"
+            aria-label="Delete"
+            title="Delete"
+          />
         </li>
         <li className="todo__item todo-item">
           <input className="todo-item__checkbox" id="task-2" type="checkbox" />
